@@ -1,0 +1,116 @@
+/**
+ * Tableless Layout for default template
+ *
+ * @author Andreas Gohr <andi@splitbrain.org>
+ * @author moraes <moraes@tipos.com.br>
+ */
+div.dokuwiki #content {
+  padding:20px;
+}
+div.dokuwiki .stylehead {
+ background:#000;
+}
+
+
+/* -------------- top row --------------- */
+div.dokuwiki .header {
+  padding: 3px 0 0 2px;
+  width:800px;
+  margin:0 auto;
+}
+
+div.dokuwiki .pagename {
+  float: left;
+  font-size: 200%;
+  font-weight: bolder;
+  color: __background_alt__;
+  text-align: left;
+  vertical-align: middle;
+}
+
+div.dokuwiki .pagename a {
+  color: __extern__ !important;
+  text-decoration: none !important;
+}
+
+div.dokuwiki .logo {
+  float: right;
+  font-size: 220%;
+  font-weight: bolder;
+  text-align: right;
+  vertical-align: middle;
+}
+
+div.dokuwiki .logo a {
+  color: __background_alt__ !important;
+  text-decoration: none !important;
+  font-variant: small-caps;
+  letter-spacing: 2pt;
+}
+
+/* ---------------  top and bottom bar ---------------- */
+div.dokuwiki .bar {
+  background: #edf3fe;
+  padding: 5px 10px;
+  clear: both;
+}
+
+div.dokuwiki .bar-left {
+  float: left;
+}
+
+div.dokuwiki .bar-right {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki #bar__bottom {
+  border-bottom: 1px solid __border__;
+  border-bottom: 0px;
+  margin-bottom:0px;
+  background:#f5f5f5;
+  border-top:1px solid #eee;
+  margin-top:10px;
+}
+div.dokuwiki .breadcrumbs {
+margin-bottom:10px;
+}
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki .stylefoot {
+  width:800px;
+  margin:0px auto;
+  background-color: #fff;
+}
+
+div.dokuwiki div.meta {
+  clear: both;
+  margin-top: 1em;
+  color: #ccc;
+  font-size: 70%;
+  padding:10px 10px 0 10px;
+}
+
+div.dokuwiki div.meta div.user {
+  float: left;
+}
+
+div.dokuwiki div.meta div.doc {
+  text-align: right;
+}
+
+#copy {
+  width:800px;
+  margin:0 auto;
+  color:#999;
+}
+#copy a:link, #copy a:visited {
+  color:#888;
+  background:#ccc;
+  text-decoration:none;
+}
+#copy a:hover, #copy a:active {
+  color:#fff;
+  background:#111;
+  text-decoration:none;
+}

@@ -9,6 +9,7 @@ div.dokuwiki #content {
 }
 div.dokuwiki .stylehead {
  background:#000;
+ padding-bottom:8px;
 }
 
 
@@ -29,7 +30,7 @@ div.dokuwiki .pagename {
 }
 
 div.dokuwiki .pagename a {
-  color: __extern__ !important;
+  color: #edf3fe !important;
   text-decoration: none !important;
 }
 
